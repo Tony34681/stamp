@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Stamp Effect App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Stamp Effect Editor</h1>
+  <input type="file" id="upload" accept="image/*" />
+  <canvas id="canvas"></canvas>
+
+  <div class="sliders">
+    <label>Dark/Light
+      <input type="range" id="brightness" min="0.2" max="2" step="0.1" value="1" />
+    </label>
+    <label>Smooth/Sharp
+      <input type="range" id="blur" min="0" max="5" step="0.1" value="0" />
+    </label>
+    <label>Line Thickness
+      <input type="range" id="thickness" min="0.5" max="5" step="0.1" value="1" />
+    </label>
+    <label>Density
+      <input type="range" id="density" min="0.2" max="2" step="0.1" value="1" />
+    </label>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
