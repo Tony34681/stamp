@@ -1,0 +1,19 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+canvas {
+  display: block;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  max-width: 100%;
+  height: auto;
+}
+.sliders label {
+  display: block;
+  margin: 10px;
+}
+input[type="range"] {
+  width: 300px;
+}
